@@ -2,6 +2,7 @@ package com.atmecs.service;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.List;
 
 import org.springframework.context.annotation.Bean;
@@ -22,6 +23,12 @@ public class EmployeeService {
 			new Employee(102,"Linda","Williams","Devops"),
 			new Employee(103,"Peter","Wilson","Hiring Manager")
 			));
+	
+//	private HashMap<Integer, Employee> employeeMap = new HashMap().put(key, value)<>(Arrays.asList(
+//			new Employee(101,"David","Johnson","Java Developer"),
+//			new Employee(102,"Linda","Williams","Devops"),
+//			new Employee(103,"Peter","Wilson","Hiring Manager")
+//			));
 	
 	public List<Employee> getallEmployees(){
 		return employees;
