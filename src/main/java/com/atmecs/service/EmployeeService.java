@@ -9,6 +9,7 @@ import org.springframework.stereotype.Service;
 
 import com.atmecs.model.Employee;
 
+//this service returns Employee by Id
 @Service
 public class EmployeeService {
 
